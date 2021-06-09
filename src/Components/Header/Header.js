@@ -11,13 +11,6 @@ function Header () {
               <div className="header__logo">CASH REGISTER</div>
             </div>
           </div>
-
-          <div className="header__right">
-            <Avatar
-                alt='Nouman Ahmed'
-                stc='https://avatars1.githubusercontent.com/u/35970677?s=60&v=4'
-            />
-          </div>
           
         </div>
     )
