@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
 import Date from './Components/Date/Date';
 import { Button, Input, TextField } from '@material-ui/core';
 import firebaseApp from './Components/Utilities/db';
@@ -175,7 +174,6 @@ class App extends Component{
               </div>
             ))}
           </div>
-          <Home />
         </div>
       );
   }
